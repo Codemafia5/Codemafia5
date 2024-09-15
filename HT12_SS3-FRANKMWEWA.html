@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm & Roots: Exploring the Diverse World of Music Genres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#look-and-listen">Look and Listen</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#notable-artists">Notable Artists</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="facebook-icon.png" alt="Facebook icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="twitter-icon.png" alt="Twitter icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Rhythm & Roots!</h1>
+            <p>Explore the diverse world of music genres, from rock to jazz, blues to classical, and everything in between.</p>
+            <p>Discover the history, influences, and notable artists of each genre, and experience the sights and sounds through interactive multimedia elements.</p>
+            <button><a href="#look-and-listen">Start Exploring</a></button>
+        </section>
+        <section id="look-and-listen">
+            <h2>Look and Listen</h2>
+            <p>Explore the visual and audio elements of each music genre</p>
+            <h3>Rock Music</h3>
+            <img src="rock-concert.jpg" alt="Rock concert">
+            <p>Experience the energy of a live rock concert</p>
+            <video width="640" height="480" controls>
+                <source src="rock-concert-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>Blues Music</h3>
+            <img src="blues-guitarist.jpg" alt="Blues guitarist">
+            <p>Watch a blues guitarist in action</p>
+            <audio controls>
+                <source src="blues-music.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+
+            <h2>Stay Up-to-Date with the Latest Band News and Exclusive Content!</h2>
+            <form id="subscription-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="genre">Favorite Music Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="rock">Rock</option>
+                    <option value="blues">Blues</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="classical">Classical</option>
+                </select><br><br>
+                <label for="updates">What type of updates would you like to receive?</label>
+                <input type="checkbox" id="news" name="updates" value="news">
+                <label for="news">News and Announcements</label>
+                <input type="checkbox" id="new-music" name="updates" value="new-music">
+                <label for="new-music">New Music Releases</label>
+                <input type="checkbox" id="tour-dates" name="updates" value="tour-dates">
+                <label for="tour-dates">Tour Dates and Locations</label>
+                <input type="checkbox" id="exclusive-content" name="updates" value="exclusive-content">
+                <label for="exclusive-content">Exclusive Content and Behind-the-Scenes</label><br><br>
+                <input type="submit" value="Subscribe">
+            </form>
+        </section>
+        <section id="facts">
+            <h1>Interesting Facts</h1>
+            <ul>
+                <li>
+                    <img src="hiphop-history.jpg" alt="Hip-Hop history">
+                    <p>Hip-hop music originated in the Bronx, New York City in the 1970s. It was influenced by funk, soul, and jazz music, and has since become a global phenomenon.</p>
+                </li>
+                <li>
+                    <h3>Notable Hip-Hop Artists</h3>
+                    <ul>
+                        <li>The Sugarhill Gang</li>
+                        <li>Grandmaster Flash and the Furious Five</li>
+                        <li>The Beastie Boys</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="notable-artists">
+            <h1>Notable Artists</h1>
+            <h2>Hip-Hop</h2>
+            <ul>
+                <li>
+                    <img src="kendrick-lamar.jpg" alt="Kendrick Lamar">
+                    <p>Kendrick Lamar is a critically acclaimed rapper and songwriter from Compton, California. He is known for his storytelling ability and socially conscious lyrics.</p>
+                </li>
+                <li>
+                    <img src="cardi-b.jpg" alt="Cardi B">
+                    <p>Cardi B is a rapper and singer from the Bronx, New York City. She is known for her chart-topping hits and outspoken personality.</p>
+                </li>
+            </ul>
+            <h2>Rock</h2>
+            <ul>
+                <li>
+                    <img src="elvis-presley.jpg" alt="Elvis Presley">
+                    <p>Elvis Presley is often referred to as the "King of Rock and Roll." He was a singer, musician, and actor who is known for his charismatic stage presence and hit songs like "Hound Dog" and "Jailhouse Rock."</p>
+                </li>
+                <li>
+                    <img src="john-lennon.jpg" alt="John Lennon">
+                    <p>John Lennon was a singer, songwriter, and member of the Beatles. He is known for his activism and hit songs like "Imagine" and "Revolution."</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Get in touch with us!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">
+        </section>
+    </main>
+    <footer><p>&copy; 2024 Rhythm & Roots Designed by Frank Mwewa</p></footer>
+    <style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#look-and-listen">Look and Listen</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#notable-artists">Notable Artists</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="facebook-icon.png" alt="Facebook icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="twitter-icon.png" alt="Twitter icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.URL;
+
+public class MusicPlayer extends Applet {
+    private AudioClip song;
+
+    public void init() {
+        String songUrl = getParameter("song");
+        URL url = new URL(getCodeBase(), songUrl);
+        song = getAudioClip(url);
+        song.play();
+    }
+
+    public void start() {
+        song.loop();
+    }
+
+    public void stop() {
+        song.stop();
+    }
+}
+        public class MusicPlayer extends Applet {
+            private AudioClip song;
+    
+            public void init() {
+                    String songUrl = getParameter("song");
+                    URL url = new URL(getCodeBase(),
+                            console.log("Hello, world!");
+    </script>
+</body>
+</html>
